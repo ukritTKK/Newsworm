@@ -1,17 +1,21 @@
 {
   "name": "newsworm",
   "version": "1.0.0",
+  "description": "",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.16.2",
     "mongodb": "^2.2.16"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.17.5"
   }
 }
