@@ -1,5 +1,5 @@
-const newsRoutes = require('./news_routes');
+const newsRoutes = require('./news_routes')
 
 module.exports = function(app, db) {
-  newsRoutes(app, db);
-};
+  newsRoutes(app, db)
+}
